@@ -1,153 +1,102 @@
-🧑‍💼 HR Salary Analysis Dashboard (Excel Project)
+# 🧑‍💼 HR Salary Analysis Dashboard (Excel Project)
 
+An interactive and data-driven HR Salary Analysis Dashboard built using Microsoft Excel, providing insights into workforce distribution, salary trends, department-wise performance, business unit contribution, and city-level salary segmentation.
 
+This project showcases the capability of Excel for building dynamic dashboards using Pivot Tables, Slicers, Conditional Formatting, and Visualizations to support HR decision-making.
 
+---
 
+## 📊 Project Overview
 
+The HR Salary Analysis Dashboard is designed to help HR teams analyze:
 
+- Salary distribution  
+- Workforce demographics  
+- Department performance  
+- Business unit contribution  
+- City-wise salary breakdown  
+- Employee exit trends  
 
+The dashboard converts raw HR data into clear, actionable insights using Excel’s analytical and visualization tools.
 
-A fully interactive HR Salary Analysis Dashboard created in Microsoft Excel to analyze employee salary distribution, departmental structure, gender distribution, business units, and city-wise insights.
+---
 
-This project demonstrates an end-to-end Excel workflow including data cleaning, pivot tables, slicers, formatting, chart visualization, and dashboard design.
+## ❓ Problem Statement / Key Questions
 
-📊 Project Overview
+- 🧑‍💼 What is the salary distribution across different job titles and departments?  
+- 🏢 Which business units contribute the most to total salary payout?  
+- 🌆 How are salaries distributed across cities?  
+- 📅 What are the monthly exit trends?  
+- 👨‍👩‍👧 What is the gender breakdown of employees?  
+- 📈 What is the average salary by job title and how does it compare linearly?
 
-The HR Salary Analysis Dashboard provides a consolidated view of employee-related insights such as:
+---
 
-Annual salary distribution
+## 📈 Key Metrics (KPIs)
 
-Department-wise salary structure
+| Metric | Insight |
+|--------|---------|
+| **Total Cities Covered** | 6 (Bangalore, Chennai, Delhi, Hyderabad, Pune, Mumbai) |
+| **Highest Salary Distribution City** | Delhi (30%) |
+| **Top Business Unit by Salary** | South Zone |
+| **Gender Distribution** | Balanced Male–Female segmentation |
+| **Exit Trend** | Monthly breakdown shown via timeline slicer |
 
-Gender composition
+> KPIs refresh automatically based on slicer filters.
 
-Business unit breakdown
+---
 
-City-wise salary share
+## 🧾 Dataset Used
 
-This dashboard helps HR teams quickly identify patterns, performance gaps, and workforce distribution to support data-driven HR decisions.
+**Name:** Employee_Data_Full.xlsx  
+**Format:** Excel  
+**Rows:** 30+ employee records  
 
-❓ Key Questions Answered
+**Key Columns:**  
+EEID, Name, Job Title, Department, Business Unit, Gender, Ethnicity, Age, Hire Date, Salary, Bonus %, Country, City, Exit Date  
 
-💸 What is the salary distribution across departments?
+> 📌 This dataset is used purely for academic and project purposes.
 
-🧑‍🤝‍🧑 What is the gender ratio in the organization?
+---
 
-🏙️ Which cities have the highest employee representation?
+## 🛠 Tools & Techniques Used
 
-🏢 How do salaries vary across business units?
+- Microsoft Excel  
+- Pivot Tables  
+- Pivot Charts  
+- Slicers & Timeline Filters  
+- Conditional Formatting  
+- Chart Customization (3D, Pie, TreeMap, Line, Bar)
 
-📅 What are the employee exit trends (based on Exit Date)?
+---
 
-👔 Which job titles earn the highest average salary?
+## 🖼️ Dashboard Preview
 
-📈 Dashboard Highlights
-✔ Department-wise Tree Map
+### 🔹 HR Salary Analysis & Workforce Breakdown  
+![HR Dashboard](Dashboard.png)
 
-Shows how salaries are distributed across departments like IT, HR, Finance, Sales, etc.
+---
 
-✔ Line Chart — Salary by Job Title
+## 🎯 Key Insights
 
-Displays trends in average annual salary across different job roles.
+- ✅ Delhi contributes the highest share (30%) of total salary distribution.  
+- ✅ South Zone and East Zone are the top-performing business units.  
+- ✅ Business Analyst, Data Analyst, and HR Manager roles show strong average salary levels.  
+- ✅ Gender distribution is well-balanced across departments.  
+- ✅ Exit trends can be tracked across months using the timeline slicer.
 
-✔ Pie Chart — City Distribution
+---
 
-Represents city-wise employee salary totals.
+## 👨‍💻 Developed By  
+**Mamta Choudhary**  
+*“Turning HR data into meaningful business insights.”*
 
-✔ Column Chart — Business Unit
+---
 
-Compares total salary contribution across business units (Corporate, East Zone, North Zone, etc.)
+## 📁 Project Files
 
-✔ Interactive Slicers
-
-Gender
-
-Job Title
-
-Exit Date (Month)
-
-🖼️ Dashboard Preview
-<img width="1200" alt="HR Dashboard" src="Dashboard.png" />
-🧾 Dataset Used
-
-Name: employee_data_full.xlsx
-
-Format: Excel
-
-Rows: Employee-wise records
-
-Columns Include:
-
-Employee ID
-
-Name
-
-Department
-
-Business Unit
-
-Gender
-
-Ethnicity
-
-Age
-
-Hire Date
-
-Annual Salary
-
-Bonus %
-
-Country & City
-
-Exit Date
-
-📌 Dataset is created for educational & analytical purposes only.
-
-🛠 Tools & Techniques Used
-🔹 Microsoft Excel
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-Conditional Formatting
-
-Advanced Chart Formatting
-
-Dashboard Layout Design
-
-🔹 Data Cleaning Techniques
-
-Removing blanks/duplicates
-
-Date formatting
-
-Salary normalization
-
-Creating pivot-friendly structure
-
-🎯 Key Insights
-
-✔ IT department has the highest salary contribution
-✔ Corporate and South Zone contribute the most to total salary
-✔ Gender distribution is balanced (based on slicer selection)
-✔ Mumbai & Delhi have highest employee count/salary share
-✔ Job titles like Data Analyst, HR Manager, Software Engineer show visible salary trends
-
-👨‍💻 Developed By
-
-Mahima Choudhary
-
-“Turning raw HR data into meaningful insights.”
-
-📁 Repository Contents
-File	Description
-employee_data_full.xlsx	Cleaned dataset used for analysis
-Dashboard.png	Final HR Dashboard snapshot
-README.md	Documentation
-⭐ Like This Project?
-
-If you find this helpful, consider giving the repository a ⭐ on GitHub!
+| File | Description |
+|------|-------------|
+| **Dashboard.png** | High-quality HR Dashboard screenshot |
+| **employee_data_full.xlsx** | HR dataset used to build the dashboard |
+| **README.md** | Project documentation |
